@@ -23,6 +23,8 @@
     <module>heima-leadnews-test</module>
     <module>heima-leadnews-service/heima-leadnews-user</module>
       <module>heima-leadnews-gateway/heima-leadnews-app-gateway</module>
+      <module>heima-leadnews-basic</module>
+      <module>heima-leadnews-basic/heima-file-starter</module>
   </modules>
 
   <properties>

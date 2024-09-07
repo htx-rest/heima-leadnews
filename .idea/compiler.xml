@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-common/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-feign-api/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-gateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-test/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-utils/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-model/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="heima-leadnews-test" />
+        <module name="heima-leadnews-utils" />
+        <module name="heima-leadnews-feign-api" />
+        <module name="heima-leadnews-common" />
+        <module name="heima-leadnews-model" />
+        <module name="heima-leadnews-service" />
+        <module name="heima-leadnews-gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="heima-leadnews" options="-parameters" />
+      <module name="heima-leadnews-common" options="-parameters" />
+      <module name="heima-leadnews-feign-api" options="-parameters" />
+      <module name="heima-leadnews-gateway" options="-parameters" />
+      <module name="heima-leadnews-model" options="-parameters" />
+      <module name="heima-leadnews-service" options="-parameters" />
+      <module name="heima-leadnews-test" options="-parameters" />
+      <module name="heima-leadnews-utils" options="-parameters" />
+    </option>
+  </component>
+</project>

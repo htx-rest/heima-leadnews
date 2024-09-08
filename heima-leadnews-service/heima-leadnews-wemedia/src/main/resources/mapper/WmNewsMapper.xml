@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.htx.wemedia.mapper.WmNewsMapper">
+
+    <update id="modifyById">
+        update wm_news
+        <set>
+            title = #{title},
+            content = #{content},
+            type = #{type},
+            labels = #{labels},
+            status = #{status},
+            update_time = #{updateTime},
+            reason = #{reason},
+            images = #{images},
+            enable = #{enable}
+        </set>
+        where
+            id = #{id}
+    </update>
+
+</mapper>

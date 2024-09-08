@@ -25,6 +25,7 @@
       <module>heima-leadnews-gateway/heima-leadnews-app-gateway</module>
       <module>heima-leadnews-basic</module>
       <module>heima-leadnews-basic/heima-file-starter</module>
+      <module>heima-leadnews-gateway/heima-leadnews-wemedia-gateway</module>
   </modules>
 
   <properties>

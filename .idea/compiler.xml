@@ -15,21 +15,25 @@
       <directory url="file://$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-search/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="heima-leadnews-test" />
         <module name="heima-file-starter" />
         <module name="heima-leadnews-wemedia-gateway" />
-        <module name="heima-leadnews-utils" />
         <module name="heima-leadnews-wemedia" />
         <module name="heima-leadnews-feign-api" />
         <module name="heima-leadnews-user" />
-        <module name="heima-leadnews-app-gateway" />
         <module name="heima-leadnews-article" />
+        <module name="heima-leadnews-test" />
+        <module name="heima-leadnews-schedule" />
+        <module name="heima-leadnews-utils" />
+        <module name="heima-leadnews-app-gateway" />
+        <module name="heima-leadnews-search" />
         <module name="heima-leadnews-common" />
         <module name="heima-leadnews-model" />
       </profile>
@@ -46,6 +50,8 @@
       <module name="heima-leadnews-feign-api" options="-parameters" />
       <module name="heima-leadnews-gateway" options="-parameters" />
       <module name="heima-leadnews-model" options="-parameters" />
+      <module name="heima-leadnews-schedule" options="-parameters" />
+      <module name="heima-leadnews-search" options="-parameters" />
       <module name="heima-leadnews-service" options="-parameters" />
       <module name="heima-leadnews-test" options="-parameters" />
       <module name="heima-leadnews-user" options="-parameters" />
